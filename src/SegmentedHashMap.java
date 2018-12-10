@@ -5,18 +5,27 @@
  */
 
 import java.util.HashMap;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 class SegmentedHashMap<K,V> implements Map<K,V> {
     private final HashMap<K,V>[] segments;
     private final int num_segments;
+    private ReentrantLock[] locks;
+
 
     SegmentedHashMap( int numseg, int capacity ) {
 	num_segments = numseg;
-	segments = new HashMap[num_segments];
+        segments = new HashMap[num_segments];
+        locks = new ReentrantLock[capacity];
 
-	for(int i = 0; i < segments.length; i++){
-	    segments[i] = new HashMap<>(capacity);
-    }
+        for(int i = 0; i < segments.length; i++){
+            segments[i] = new HashMap<>(capacity);
+        }
+
+        for (int i = 0; i < capacity; i++) {
+            locks[i] = new ReentrantLock();
+        }
     }
 
     // Select a segment by hashing the key to a value in the range
@@ -26,17 +35,29 @@ class SegmentedHashMap<K,V> implements Map<K,V> {
     }
 
     public boolean add(K k, V v) {
-       int hash = hash(k);
-       return segments[hash].put(k, v) == null;
-    }
-    
-    public boolean remove(K k) {
-        for(int i = 0; i < segments.length; i++){
-            if(segments[i].containsKey(k)){
-                return segments[i].remove(k) != null;
-            }
+        int hash = hash(k);
+        try {
+            locks[hash].lock();
+            return segments[hash].put(k, v) == null;
+
+        } finally {
+            locks[hash].unlock();
         }
-	return false;
+
+    }
+
+    public boolean remove(K k) {
+        int hash = hash(k);
+        try {
+            locks[hash].lock();
+            if(segments[hash].containsKey(k)){
+                return segments[hash].remove(k) != null;
+
+            }
+        } finally {
+            locks[hash].unlock();
+        }
+        return false;
     }
     
     public boolean contains(K k) {
