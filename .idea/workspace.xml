@@ -2,6 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41bf9aae-4754-4d42-936c-abf303e74634" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Q3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/ConcurrencyAssignement3Q3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/.idea/A3Database.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/Bank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/ColumnInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/DataValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/Database.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/IntegerDataValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/LockSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/QueryEngine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/Record.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/RecordVisitor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/RecordVisitorEvaluateWhere.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/RecordVisitorLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/RecordVisitorSelect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/RecordVisitorUpdate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/ResultAggregator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/ResultSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/SQLCommitStatement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/SQLField.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/SQLFieldList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/SQLInsertIntoStatement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/SQLSelectBaseStatement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/SQLSelectForUpdateStatement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/SQLSelectStatement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/SQLStartTransactionStatement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/SQLStatement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/SQLTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/SQLUpdateStatement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/SQLValueList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/SQLWhereClause.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/SetDataValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/StringDataValue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/Table.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/TableIndex.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/TableSchema.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/TestProcess.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/.idea/A3Database.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/ColumnInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/DataValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/IntegerDataValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/LockSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/QueryEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/Record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/RecordVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/RecordVisitorEvaluateWhere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/RecordVisitorLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/RecordVisitorSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/RecordVisitorUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/ResultSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/SQLCommitStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/SQLField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/SQLFieldList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/SQLInsertIntoStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/SQLSelectBaseStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/SQLSelectForUpdateStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/SQLSelectStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/SQLStartTransactionStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/SQLStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/SQLTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/SQLUpdateStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/SQLValueList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/SQLWhereClause.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/SetDataValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/StringDataValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/TableIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Q3/src/A3Database/TableSchema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/BucketListMap$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/BucketListMap$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/BucketListMap$Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/BucketListMap$Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/BucketListMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/BucketListMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/CoarseGrainHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/CoarseGrainHashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/Contents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/Contents.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/IntValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/IntValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/LFSR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/LFSR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/LFSR19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/LFSR19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/LFSR8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/LFSR8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/LockFreeHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/LockFreeHashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/ResultAggregator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/ResultAggregator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/ResultAggregator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/ResultAggregator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/SegmentedHashMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/SegmentedHashMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CSC3021Assignment3/TestProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CSC3021Assignment3/TestProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BucketListMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BucketListMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoarseGrainHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoarseGrainHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LockFreeHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LockFreeHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SegmentedHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SegmentedHashMap.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,48 +112,49 @@
     <session id="-4069658">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="11" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="13" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="13" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="926" />
+          <entry key="java" value="1723" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="926" />
+          <entry key="JAVA" value="1723" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SegmentedHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+            <state relative-caret-position="150">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#1912#1913#0" expanded="true" />
-                <element signature="e#1930#1931#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +163,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LockFreeHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+            <state relative-caret-position="192">
+              <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+              <folding>
+                <element signature="e#1487#1488#0" expanded="true" />
+                <element signature="e#1517#1518#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,8 +176,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BucketListMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="165" column="21" lean-forward="true" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
+            <state relative-caret-position="179">
+              <caret line="195" column="40" selection-start-line="195" selection-start-column="40" selection-end-line="195" selection-end-column="40" />
+              <folding>
+                <element signature="e#1779#1780#0" expanded="true" />
+                <element signature="e#1811#1812#0" expanded="true" />
+                <element signature="e#3707#3713#0" expanded="true" />
+                <element signature="e#3887#3888#0" expanded="true" />
+                <element signature="e#3908#3909#0" expanded="true" />
+                <element signature="e#4065#4066#0" expanded="true" />
+                <element signature="e#4102#4103#0" expanded="true" />
+                <element signature="e#4242#4243#0" expanded="true" />
+                <element signature="e#4279#4280#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Q3/src/A3Database/.idea/modules.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Q3/ConcurrencyAssignement3Q3.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Q3/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Q3/src/A3Database/QueryEngine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -83,21 +220,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CoarseGrainHashMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="885">
+              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
               <folding>
                 <element signature="e#0#688#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#684#685#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#1336#1337#0" expanded="true" />
+                <element signature="e#1369#1370#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +237,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6915">
-              <caret line="493" column="45" selection-start-line="493" selection-start-column="37" selection-end-line="493" selection-end-column="45" />
+            <state relative-caret-position="-3879">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -121,15 +252,26 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>compareAndSet</find>
+      <find>segment</find>
+      <find>compare</find>
+      <find>double</find>
+      <find>seg</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/BucketListMap.java" />
+        <option value="$PROJECT_DIR$/src/SegmentedHashMap.java" />
         <option value="$PROJECT_DIR$/src/CoarseGrainHashMap.java" />
         <option value="$PROJECT_DIR$/src/LockFreeHashMap.java" />
-        <option value="$PROJECT_DIR$/src/SegmentedHashMap.java" />
+        <option value="$PROJECT_DIR$/Q3/src/A3Database/QueryEngine.java" />
       </list>
     </option>
   </component>
@@ -145,8 +287,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,7 +299,20 @@
             <path>
               <item name="CSC3021Assignment3" type="b2602c69:ProjectViewProjectNode" />
               <item name="CSC3021Assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="Q3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSC3021Assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSC3021Assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="Q3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CSC3021Assignment3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CSC3021Assignment3" type="462c0819:PsiDirectoryNode" />
+              <item name="Q3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="A3Database" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -166,10 +321,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544400770611" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544787271116" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Q3" />
+      <recent name="$PROJECT_DIR$/Q3/src" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -185,18 +347,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.LockFreeHashTable">
+    <configuration name="LockFreeHashTable" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Driver" />
       <module name="CSC3021Assignment3" />
-      <option name="PROGRAM_PARAMETERS" value="4 64 8 64 2 13000 2 &quot;segmented&quot;" />
+      <option name="PROGRAM_PARAMETERS" value="1 64 8 17 2 13000 2 &quot;lockfree&quot;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Segmented" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Driver" />
+      <module name="CSC3021Assignment3" />
+      <option name="PROGRAM_PARAMETERS" value="1 16 8192 18 2 1 10 &quot;segmented&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="coarsegrain" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Driver" />
+      <module name="CSC3021Assignment3" />
+      <option name="PROGRAM_PARAMETERS" value="1 16 8192 18 2 1 10 &quot;coarsegrain&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LockFreeHashTable" />
+      <item itemvalue="Application.coarsegrain" />
+      <item itemvalue="Application.Segmented" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Driver" />
+        <item itemvalue="Application.Segmented" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +400,7 @@
     <frame x="11" y="23" width="1429" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2559481" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.259553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -226,7 +409,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34125873" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28531468" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -284,61 +467,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Driver.java">
+    <entry file="file://$PROJECT_DIR$/src/CoarseGrainHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6915">
-          <caret line="493" column="45" selection-start-line="493" selection-start-column="37" selection-end-line="493" selection-end-column="45" />
+        <state relative-caret-position="885">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#688#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CoarseGrainHashMap.java">
+    <entry file="file://$PROJECT_DIR$/src/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="-3879">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SegmentedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
-            <element signature="e#0#688#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LockFreeHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        <state relative-caret-position="192">
+          <caret line="61" column="25" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
+          <folding>
+            <element signature="e#1487#1488#0" expanded="true" />
+            <element signature="e#1517#1518#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BucketListMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="165" column="21" lean-forward="true" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SegmentedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        <state relative-caret-position="179">
+          <caret line="195" column="40" selection-start-line="195" selection-start-column="40" selection-end-line="195" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#1912#1913#0" expanded="true" />
-            <element signature="e#1930#1931#0" expanded="true" />
+            <element signature="e#1779#1780#0" expanded="true" />
+            <element signature="e#1811#1812#0" expanded="true" />
+            <element signature="e#3707#3713#0" expanded="true" />
+            <element signature="e#3887#3888#0" expanded="true" />
+            <element signature="e#3908#3909#0" expanded="true" />
+            <element signature="e#4065#4066#0" expanded="true" />
+            <element signature="e#4102#4103#0" expanded="true" />
+            <element signature="e#4242#4243#0" expanded="true" />
+            <element signature="e#4279#4280#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/Q3/out/production/ConcurrencyAssignement3Q3/A3Database/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/src/A3Database/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/ConcurrencyAssignement3Q3.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Q3/src/A3Database/QueryEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="65" column="51" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CSC3021Assignment3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

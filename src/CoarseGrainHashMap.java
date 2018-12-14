@@ -4,31 +4,63 @@
  * (C) Hans Vandierendonck 2017
  */
 import java.util.HashMap;
+import java.util.concurrent.locks.ReentrantLock;
 
 class CoarseGrainHashMap<K,V> implements Map<K,V> {
     private final HashMap<K,V> map;
+    private ReentrantLock lock = new ReentrantLock();
 
     CoarseGrainHashMap( int capacity ) {
-	map = new HashMap<>(capacity);
+        map = new HashMap<>();
     }
 
-    public synchronized boolean add(K k, V v) {
-	    return map.put(k, v) == null;
-    }
-    
-    public synchronized boolean remove(K k) {
-        return map.remove(k) != null;
-    }
-    
-    public synchronized boolean contains(K k) {
-	    return map.containsKey(k);
-    }
-    
-    public synchronized V get(K k) {
-	    return map.get(k);
+    @Override
+    public boolean add(K key, V value) {
+        synchronized(lock){
+            if (key == null) {
+                return false;
+            } else {
+                map.put(key, value);
+                return true;
+            }
+        }
     }
 
-    public synchronized int debuggingCountElements() {
-	return 64;
+    @Override
+    public boolean remove(K key) {
+        synchronized (lock) {
+            if (key == null) {
+                return false;
+            } else {
+                map.remove(key);
+                return true;
+            }
+        }
+    }
+
+    @Override
+    public boolean contains(K key) {
+        synchronized (lock) {
+            if (key == null) {
+                return false;
+            } else {
+                return map.get(key) != null;
+            }
+        }
+    }
+    @Override
+    public V get(K key) {
+        synchronized (lock) {
+            if (key == null) {
+                return null;
+            } else {
+                return map.get(key);
+            }
+        }
+    }
+
+    @Override
+    public int debuggingCountElements() {
+        return map.size();
     }
 }

@@ -5,25 +5,19 @@
  */
 
 import java.util.HashMap;
-import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 class SegmentedHashMap<K,V> implements Map<K,V> {
     private final HashMap<K,V>[] segments;
     private final int num_segments;
-    private ReentrantLock[] locks;
-
+    private final ReentrantLock[] locks;
 
     SegmentedHashMap( int numseg, int capacity ) {
-	num_segments = numseg;
+        num_segments = numseg;
         segments = new HashMap[num_segments];
-        locks = new ReentrantLock[capacity];
-
-        for(int i = 0; i < segments.length; i++){
-            segments[i] = new HashMap<>(capacity);
-        }
-
-        for (int i = 0; i < capacity; i++) {
+        locks = new ReentrantLock[num_segments];
+        for(int i = 0; i < num_segments; i++) {
+            segments[i] = new HashMap<K,V>(capacity);
             locks[i] = new ReentrantLock();
         }
     }
@@ -36,49 +30,59 @@ class SegmentedHashMap<K,V> implements Map<K,V> {
 
     public boolean add(K k, V v) {
         int hash = hash(k);
+        locks[hash].lock();
         try {
-            locks[hash].lock();
-            return segments[hash].put(k, v) == null;
-
+            V val;
+            val = segments[hash].put(k,v);
+            if(val==null) {
+                return true;
+            }
+            else {
+                return false;
+            }
         } finally {
             locks[hash].unlock();
         }
-
     }
 
     public boolean remove(K k) {
         int hash = hash(k);
+        locks[hash].lock();
         try {
-            locks[hash].lock();
-            if(segments[hash].containsKey(k)){
-                return segments[hash].remove(k) != null;
-
-            }
+            V val;
+            val = segments[hash].remove(k);
+            if(val==null) return false;
+            else return true;
         } finally {
             locks[hash].unlock();
         }
-        return false;
     }
-    
+
     public boolean contains(K k) {
-        for (int i = 0; i < segments.length; i++) {
-            if (segments[i].containsKey(k)) {
-                return true;
-            }
+        int hash = hash(k);
+        locks[hash].lock();
+        try {
+            return segments[hash].containsKey(k);
+        } finally {
+            locks[hash].unlock();
         }
-        return false;
     }
-    
+
     public V get(K k) {
-        for(int i = 0; i < segments.length; i++){
-            if(segments[i].containsKey(k)){
-                return segments[i].get(k);
-            }
+        int hash = hash(k);
+        locks[hash].lock();
+        try {
+            return segments[hash].get(k);
+        } finally {
+            locks[hash].unlock();
         }
-	return null;
     }
 
     public int debuggingCountElements() {
-	return 64;
+        int number = 0;
+        for(int i = 0 ; i < num_segments;i++) {
+            number+=segments[i].size();
+        }
+        return number;
     }
 }
