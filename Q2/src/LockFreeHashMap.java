@@ -8,8 +8,6 @@
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @param K key type
- * @param V value type
  * @author Maurice Herlihy
  * @author Hans Vandierendonck
  */
@@ -86,6 +84,21 @@ public class LockFreeHashMap<K,V> implements Map<K, V> {protected BucketListMap<
 		} while (parent > myBucket);
 		parent = myBucket - parent;
 		return parent;
+	}
+
+	public void resize() {
+		int old_capacity = bucket.length;
+		int new_capacity = 2 * old_capacity;
+		BucketListMap<K,V>[] oldBucket = bucket;
+		bucket = (BucketListMap<K,V>[]) new BucketListMap[new_capacity];
+
+		for(int i = 0; i < new_capacity; i++){
+			bucket[i] = new BucketListMap<>();
+		}
+
+		for (int i = 0; i < new_capacity; i++){
+			bucket[i] = oldBucket[i];
+		}
 	}
 
 	public int debuggingCountElements() {
