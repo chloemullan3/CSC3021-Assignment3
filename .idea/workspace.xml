@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="41bf9aae-4754-4d42-936c-abf303e74634" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSC3021Assignment3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CSC3021Assignment3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BucketListMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q2/src/BucketListMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CoarseGrainHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q2/src/CoarseGrainHashMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/Q2/src/Driver.java" afterDir="false" />
@@ -21,7 +22,7 @@
     <session id="-4069658">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -216,7 +217,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544787276101" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545050389492" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -224,6 +225,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Q2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Q3" />
       <recent name="$PROJECT_DIR$/Q3/src" />
